@@ -1,0 +1,32 @@
+USE [BDDataSystem]
+GO
+
+/****** Object:  Table [dbo].[TB_TAREFAS]    Script Date: 28/11/2024 14:48:03 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[TB_TAREFAS](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[TituloTarefa] [varchar](100) NOT NULL,
+	[DescricaoTarefa] [varchar](100) NULL,
+	[DataCriacao] [datetime] NULL,
+	[DataConclusao] [datetime] NULL,
+	[Status] [varchar](15) NULL,
+ CONSTRAINT [PK_TB_TAREFAS] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
