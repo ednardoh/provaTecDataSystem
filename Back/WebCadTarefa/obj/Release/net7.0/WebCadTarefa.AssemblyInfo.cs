@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCadTarefa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb461d9f2fd8fd7860b77926e0c0fa87d5231e54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+003c145be4d40dbc21a0cfbf08e4bc8a5267e972")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCadTarefa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCadTarefa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
